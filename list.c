@@ -31,7 +31,6 @@ int insert(int key, int val)
     }
 
     new->data = val;
-    printf("value to be inserted is %d\n", new->data);
     new->next_node = NULL;
 
     for(node_s *c = head;
