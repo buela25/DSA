@@ -27,7 +27,7 @@ int insert(int key, int val)
     if(!new)
     {
         printf("Memory allocation failed\n");
-        return 1;
+        return -1;
     }
 
     new->data = val;
